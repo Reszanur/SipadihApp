@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIPADIH - Sistem Pakar Diagnosis Hipertensi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966485.png" type="image/png">
+</head>
+
+<body class="bg-gradient-to-b from-blue-50 to-blue-100 min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-700 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-wide">🩺 SIPADIH</h1>
+      <a href="./login.php" class="bg-white text-blue-700 px-4 py-2 rounded-lg font-semibold hover:bg-blue-100 transition">Masuk</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-center px-6 py-12 max-w-6xl mx-auto gap-10">
+    <div class="flex-1">
+      <h2 class="text-4xl md:text-5xl font-bold text-blue-800 mb-4">Sistem Pakar Diagnosis Hipertensi</h2>
+      <p class="text-gray-700 text-lg mb-6">
+        SIPADIH membantu Anda mengenali kemungkinan jenis hipertensi berdasarkan gejala yang Anda alami
+        menggunakan <strong>Metode Dempster-Shafer</strong>.  
+        Sistem ini dapat digunakan sebagai alat bantu skrining awal dan edukasi kesehatan.
+      </p>
+      <a href="./login.php" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition">Mulai Konsultasi Sekarang</a>
+    </div>
+    <div class="flex-1">
+      <img src="https://cdn-icons-png.flaticon.com/512/4257/4257484.png" alt="Ilustrasi Hipertensi" class="w-full max-w-md mx-auto">
+    </div>
+  </section>
+
+  <!-- Edukasi Section -->
+  <section class="bg-white py-12 shadow-inner">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-blue-800 mb-6 text-center">Edukasi Tentang Hipertensi</h3>
+      <div class="grid md:grid-cols-2 gap-10 text-gray-700 leading-relaxed">
+        <div>
+          <h4 class="text-xl font-semibold text-blue-700 mb-2">Apa itu Hipertensi?</h4>
+          <p>Hipertensi adalah kondisi ketika tekanan darah berada di atas batas normal, biasanya di atas 140/90 mmHg.
+             Hipertensi sering kali tidak menimbulkan gejala, namun dapat menyebabkan komplikasi serius seperti
+             penyakit jantung, stroke, atau kerusakan ginjal.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold text-blue-700 mb-2">Jenis-jenis Hipertensi</h4>
+          <ul class="list-disc ml-6">
+            <li><strong>Hipertensi Primer:</strong> Tidak diketahui penyebab pastinya, umumnya karena gaya hidup.</li>
+            <li><strong>Hipertensi Sekunder:</strong> Disebabkan oleh kondisi medis lain seperti gangguan ginjal atau hormon.</li>
+            <li><strong>Hipertensi Pulmonal:</strong> Terjadi akibat tekanan tinggi pada pembuluh darah paru-paru.</li>
+            <li><strong>Hipertensi Maligna:</strong> Tekanan darah sangat tinggi yang memerlukan penanganan darurat.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips Section -->
+  <section class="bg-blue-50 py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-blue-800 mb-6 text-center">Tips Menjaga Tekanan Darah</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-gray-700 text-center">
+        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/3048/3048362.png" alt="Olahraga" class="w-20 mx-auto mb-3">
+          <h4 class="font-semibold text-lg text-blue-700 mb-2">Rutin Berolahraga</h4>
+          <p>Lakukan aktivitas fisik minimal 30 menit setiap hari seperti jalan kaki, berenang, atau bersepeda.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/4327/4327407.png" alt="Makan sehat" class="w-20 mx-auto mb-3">
+          <h4 class="font-semibold text-lg text-blue-700 mb-2">Pola Makan Sehat</h4>
+          <p>Kurangi garam, hindari makanan berlemak tinggi, dan perbanyak konsumsi buah serta sayuran.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png" alt="Hindari stres" class="w-20 mx-auto mb-3">
+          <h4 class="font-semibold text-lg text-blue-700 mb-2">Kelola Stres</h4>
+          <p>Istirahat cukup, meditasi, dan hindari kebiasaan buruk seperti merokok atau konsumsi alkohol.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4 mt-auto">
+    <p>© 2025 SIPADIH | Sistem Pakar Diagnosis Hipertensi</p>
+  </footer>
+
+</body>
+</html>
